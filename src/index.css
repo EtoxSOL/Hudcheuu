@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Neo Tech";
-  src: url("/fonts/neo-tech.otf") format("otf"),
+  src: url("/fonts/neo-tech.otf") format("opentype"),
 }
 
 * {
@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: "Neo Tech", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Neo Tech", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 /* Small devices */
